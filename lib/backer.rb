@@ -7,4 +7,5 @@ attr_accessor :name, :project
 
   def back_project
     @backed_projects << self
+  end
 end
