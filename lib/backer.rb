@@ -6,6 +6,6 @@ attr_accessor :name, :project
   end
 
   def back_project(project)
-    @backed_projects << self
+    @backed_projects.unshift
   end
 end
