@@ -3,9 +3,10 @@ attr_accessor :name, :project
 @backed_projects = []
   def initialize(name)
     @name = name
+    @project = project
   end
 
   def back_project(project)
-    @backed_projects << project
+    @backed_projects << @project
   end
 end
